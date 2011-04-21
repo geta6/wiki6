@@ -1,22 +1,17 @@
 Wiki6
 =====
 
-Powered by PHP and jQuery wiki
-------------------------------
-
-### Homepage
-
+Homepage
+--------
 * ProjectPage: [http://geta6.net/wiki6](http://geta6.net/wiki6)
 * DemoPage: [http://dev.geta6.net/wiki6](http://dev.geta6.net/wiki6)
 
-### Source & Download
-
+Source & Download
+-----------------
 * [GitHub](https://github.com/geta6/wiki6)
 
-Documentation
--------------
-
-### Prepare
+Prepareing
+----------
 
 1.	Create contents folder named `var/`.  
 
@@ -28,3 +23,11 @@ Documentation
 1.	Change Password.  
 	Default password is **wikisix**, please change.  
 
+Documentation
+-------------
+
+*	'PageName': Page's URI
+	*	Cannot use . / ? and more.
+*	'PageTitle': First Heading String.
+	*	cached in `etc/cache.json`
+	*	Overwrite the page, fixer fix cache.json.
