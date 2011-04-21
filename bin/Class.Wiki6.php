@@ -51,7 +51,7 @@ class Wiki6 extends Init6 {
 		if(EXISTS){
 			include_once "lib/plugin/markdown.php";
 			$str = MarkDown(file_get_contents($this->full));
-			echo preg_replace('|(http://.*?</a>)|',"$1↱",$str);
+			echo preg_replace('|(https*://.*?</a>)|',"$1↱",$str);
 		}elseif(!LOCKED){
 			echo "<script>console('edit','".$this->page."');</script>";
 		}else{
