@@ -41,11 +41,11 @@
 #content #article {
 	float: left;
 	width: 100%;
-	margin-right: -200px;
+	margin-right: -20em;
 }
 
 #content #article article{
-	margin: 0 200px 0 0;
+	margin: 0 20em 0 0;
 }
 
 #content #article article #section{
@@ -57,9 +57,11 @@
 }
 
 #content #article footer{
-	float: left;
 	width: 100%;
-	margin-right: -200px;
+	margin-right: -20em;
+}
+#content #article #footer {
+	margin-right: 20em;
 }
 
 /* ---------- Content.Sidebar ---------- */

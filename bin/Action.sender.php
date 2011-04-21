@@ -114,7 +114,6 @@ switch($_POST['a']){
 			<form action="<?echo$_POST['path'];?>" method="post" class="edit">
 				<textarea id="string" name="string"><?echo file_get_contents("../".$_POST['full']);?></textarea>
 				<input type="submit" class="ok" name="edit" value="Publish">
-				or
 				<input type="submit" class="ng" name="edit" value="Cancel">
 				<input name="p" value="<?echo$_POST['path'];?>" type="hidden">
 				<input name="a" value="edit" type="hidden">

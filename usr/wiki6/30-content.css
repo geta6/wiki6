@@ -9,6 +9,15 @@
 	text-decoration: none;
 }
 
+#content a.ok,
+#content a.ng {
+	color: #202428;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
 #content b {
 	font-weight: bold;
 }

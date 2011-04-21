@@ -27,11 +27,12 @@ class Wiki6 extends Init6 {
 	}
 	
 	function PrintConsole(){
+		echo'<a class="nav" href="./">home</a>'."\n";
 		if(LOCKED){
-			echo'<a onclick="console(\'signin\',\''.$this->page.'\')">sign in</a>'."\n";
+			echo'<a class="nav" onclick="console(\'signin\',\''.$this->page.'\')">sign in</a>'."\n";
 		}else{
 			#echo'<a onclick="console(\'setting\',\''.$this->page.'\')">setting</a>';
-			echo'<a onclick="console(\'signout\',\''.$this->page.'\')">sign out</a>'."\n";
+			echo'<a class="nav" onclick="console(\'signout\',\''.$this->page.'\')">sign out</a>'."\n";
 		}
 	}
 	
@@ -60,9 +61,10 @@ class Wiki6 extends Init6 {
 	
 	function PrintCreator(){
 		if(!LOCKED){
-			echo'<a id="createsubmit" class="nav" onclick="console(\'create\')">Create New Page</a>';
-			echo'<a id="createcancel" class="nav navon" onclick="console(\'create\')">Cancel</a><br>';
-			echo'<p><input id="createname" class="nav navon" type="text"></p>';
+			echo'
+			<a style="display:block" id="createsubmit" class="ng" onclick="console(\'create\')">Create New Page</a>
+			<input style="display:none" id="createname" class="createon" type="text">
+			';
 		}
 	}
 	
@@ -80,7 +82,7 @@ class Wiki6 extends Init6 {
 	}
 	
 	function PrintFooter(){
-		echo$this->conf->footer." | powered by <a href='http://geta6.net/wiki6'>Wiki6-".$this->conf->version."</a>";
+		echo$this->conf->footer." | powered by <a href='https://github.com/geta6/wiki6'>Wiki6-".$this->conf->version."</a>";
 	}
 	
 	function PrintSetting(){

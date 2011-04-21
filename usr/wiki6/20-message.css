@@ -19,17 +19,6 @@
 	font-size: 2.0em;
 }
 
-#content #message input {
-	margin: 1em;
-	padding: 0.5em;
-	font-family: monospace;
-	border: 1px solid #DCDDDE;
-}
-
-#content #message input.button {
-	font-family: helvetica,arial,sans-serif;
-}
-
 /* ---------- SettingBox ---------- */
 
 #content #setting {

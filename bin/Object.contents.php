@@ -6,7 +6,9 @@
 			<?php $wiki6->PrintAction(); ?>
 		</article>
 		<footer>
-			<?php $wiki6->PrintFooter(); ?>
+			<div id="footer">
+				<?php $wiki6->PrintFooter(); ?>
+			</div>
 		</footer>
 	</div>
 

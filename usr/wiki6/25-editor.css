@@ -17,11 +17,16 @@
 	height: 100%;
 }
 
-#content textarea#string, #marked {
+#content textarea#string,
+#content #marked {
 	overflow: auto;
 	width: 100%;
 	height: 100%;
 	border: 1px solid #DCDDDE;
+}
+
+#content #marked {
+	background: #FAFBFC;
 }
 
 #content textarea#string {
