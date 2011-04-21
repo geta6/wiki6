@@ -20,11 +20,11 @@ Documentation
 
 1.	Create contents folder named `var/`.  
 
-1.	Change Password.  
-	Default password is **wikisix**, please change.  
-
-2.	Setting Permissions.  
+1.	Setting Permissions.  
 	Need R/W permissions to `etc` and `var`  
 
-3.	Enabling Rewrite Module.  
+1.	Enabling Rewrite Module.  
+
+1.	Change Password.  
+	Default password is **wikisix**, please change.  
 
