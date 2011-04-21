@@ -21,7 +21,7 @@ Documentation
 1.	Create contents folder named `var/`.  
 
 1.	Change Password.  
-	Default password is **wiki6**, please change.  
+	Default password is **wikisix**, please change.  
 
 2.	Setting Permissions.  
 	Need R/W permissions to `etc` and `var`  
