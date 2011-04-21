@@ -1,0 +1,29 @@
+#content #editor {
+	float: left;
+	width: 50%;
+}
+
+#content #editor input {
+	cursor: pointer;
+}
+
+#content #preview {
+	float: left;
+	width: 50%;
+}
+
+#content .edit {
+	padding: 2em;
+	height: 100%;
+}
+
+#content textarea#string, #marked {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #DCDDDE;
+}
+
+#content textarea#string {
+	font-family: monospace;
+}

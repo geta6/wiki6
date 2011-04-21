@@ -1,0 +1,75 @@
+/* ---------- Simply Reset ---------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: 0;
+	list-style: none;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	color: inherit;
+	text-decoration: none;
+}
+
+/* ---------- Navigation ---------- */
+
+#header {
+	height: 6em;
+}
+
+#header header {}
+
+#header header hgroup {
+	float:left;
+}
+
+#header header #console {
+	float: right;
+}
+
+/* ---------- Content ---------- */
+
+#content {
+	height:100%;
+}
+
+/* ---------- Content.Article ---------- */
+
+#content #article {
+	float: left;
+	width: 100%;
+	margin-right: -200px;
+}
+
+#content #article article{
+	margin: 0 200px 0 0;
+}
+
+#content #article article #section{
+	padding: 0 1em 1em 1em;
+}
+
+#content #article article #action{
+	padding: 1em;
+}
+
+#content #article footer{
+	float: left;
+	width: 100%;
+	margin-right: -200px;
+}
+
+/* ---------- Content.Sidebar ---------- */
+
+#content #nav {
+	float: right;
+	width: 200px;
+}
+
+#content #nav nav{
+	margin-top: 0.2em;
+	padding: 2em 1em 0 0;
+}

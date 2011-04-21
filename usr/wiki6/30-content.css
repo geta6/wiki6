@@ -1,0 +1,72 @@
+/* ---------- Markdowned ---------- */
+#content a {
+	color: #79B;
+	text-decoration: underline;
+}
+
+#content a:hover {
+	color: #B97;
+	text-decoration: none;
+}
+
+#content b {
+	font-weight: bold;
+}
+
+#content hr {
+	border-top: 1px dashed #DCDDDE
+}
+
+#content strong {
+	font-weight: bold;
+	color: #202428;
+	background: #EEEfE0;
+}
+
+#content pre {
+	padding: 1em;
+	overflow: auto;
+}
+
+#content code {
+	font-family: monospace;
+	color: #606468;
+}
+
+#content p,
+#content ul,
+#content ol {
+	margin: 1em 0;
+}
+
+#content li {
+	margin-left: 2em;
+}
+
+#content ul li {
+	list-style-type: disc;
+}
+
+#content ul li li {
+	list-style-type: circle;
+}
+
+#content ol li {
+	list-style-type: decimal;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+	margin: 1em 0 0.5em 0;
+	font-weight: bold;
+}
+#content h1 { font-size:1.7em; }
+#content h2 { font-size:1.4em; }
+#content h3 { font-size:1.2em; }
+#content h4 { font-size:1.0em; }
+#content h5 { font-size:0.8em; }
+#content h6 { font-size:0.7em; }
