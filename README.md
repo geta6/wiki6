@@ -6,7 +6,8 @@ Powered by PHP and jQuery wiki
 
 ### Homepage
 
-* [http://geta6.net/wiki6](http://geta6.net/wiki6)
+* ProjectPage: [http://geta6.net/wiki6](http://geta6.net/wiki6)
+* DemoPage: [http://dev.geta6.net/wiki6](http://dev.geta6.net/wiki6)
 
 ### Source & Download
 
