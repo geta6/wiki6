@@ -27,13 +27,13 @@ Wiki6 is WYSIWYG wiki.
 
 ### Prepare
 
-1.	Change Password.
-	Default Password is **wiki6**, please change.
-	_`echo hash("sha512","yourpassword")`_
-	write in `etc/setting.json`
+1.	Change Password.  
+	Default Password is **wiki6**, please change.  
+	_`echo hash("sha512","yourpassword")`_  
+	write in `etc/setting.json`  
 
-2.	Setting Permissions.
-	Need R/W permissions to _`etc`_ and _`var`_
+2.	Setting Permissions.  
+	Need R/W permissions to _`etc`_ and _`var`_  
 
-3.	Enabling Rewrite Module.
+3.	Enabling Rewrite Module.  
 
