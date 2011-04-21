@@ -16,12 +16,14 @@ Powered by PHP and jQuery wiki
 Documentation
 -------------
 
-Wiki6 is WYSIWYG wiki.
-
 ### Prepare
 
+1.	Create contents folder.  
+	Default is `var/`.  
+	Can be changed by `etc/setting.json`.
+
 1.	Change Password.  
-	Default Password is **wiki6**, please change.  
+	Default password is **wiki6**, please change.  
 	`echo hash("sha512","yourpassword")`  
 	write in `etc/setting.json`  
 	Will be fixed.
