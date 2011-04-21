@@ -12,14 +12,6 @@ Powered by PHP and jQuery wiki
 
 * [GitHub](https://github.com/geta6/wiki6)
 
-Versions
---------
-
-*	3.0.1
-	*	Fix Short-Tags
-	*	Detect outer link
-	*	Change `file_get_contents` to `curl`
-
 Documentation
 -------------
 
