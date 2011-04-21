@@ -18,15 +18,10 @@ Documentation
 
 ### Prepare
 
-1.	Create contents folder.  
-	Default is `var/`.  
-	Can be changed by `etc/setting.json`.
+1.	Create contents folder named `var/`.  
 
 1.	Change Password.  
 	Default password is **wiki6**, please change.  
-	`echo hash("sha512","yourpassword")`  
-	write in `etc/setting.json`  
-	Will be fixed.
 
 2.	Setting Permissions.  
 	Need R/W permissions to `etc` and `var`  
