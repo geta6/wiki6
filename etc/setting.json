@@ -1,12 +1,1 @@
-{
-	"index" : "home",
-	"policy" : "1",
-	"cache" : "10",
-	"theme" : "wiki6",
-	"password" : "a26688aee221ba8bcb525a3d4d64c79bd752663f2dfc54ba95c9b4fafbc0035723024f0cc01629fb9795ef782e8593e5ba279e3b45449a7b73e57941cde90946",
-	"title" : "Wiki6",
-	"subtitle" : "Yet another markdowned wiki.",
-	"footer" : "copyright 2011 Project Wiki6",
-	"version" : "0.4",
-	"checkupdate" : "1"
-}
+{"title":"Wiki6","subtitle":"Yet another markdowned wiki.","footer":"copyright 2011 Project Wiki6","index":"home","cache":"10","password":"235bb44eabc51944a0e928406f7224c42201f89842598544d11a9e8211620f639e53866265f4d96b407062626b45fd82b6a1a82e98eb16c318f930da3ac68149","policy":"1","theme":"wiki6","checkupdate":"1"}

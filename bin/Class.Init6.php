@@ -46,7 +46,8 @@ abstract class Init6 {
 		if($this->conf->checkupdate){
 			$curl=curl_init("http://dev.geta6.net/release/wiki6");
 			curl_setopt($curl,CURLOPT_RETURNTRANSFER,TRUE);
-			define("UPDATE",(float)$this->conf->version>=(float)curl_exec($curl)?false:true);
+			$current=file_get_contents("bin/VERSION");
+			define("UPDATE",(float)$current>=(float)curl_exec($curl)?false:true);
 		}else{
 			define("UPDATE",false);
 		}

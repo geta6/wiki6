@@ -31,7 +31,7 @@ class Wiki6 extends Init6 {
 		if(LOCKED){
 			echo'<a class="nav" onclick="console(\'signin\',\''.$this->page.'\')">sign in</a>'."\n";
 		}else{
-			#echo'<a onclick="console(\'setting\',\''.$this->page.'\')">setting</a>';
+			echo'<a class="nav" onclick="console(\'setting\',\''.$this->page.'\')">setting</a>';
 			echo'<a class="nav" onclick="console(\'signout\',\''.$this->page.'\')">sign out</a>'."\n";
 		}
 	}
