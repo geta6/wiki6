@@ -6,7 +6,7 @@ class Wiki6 extends Init6 {
 	/* ----- Printer -----*/
 	
 	function PrintUpdate(){
-		if(UPDATE) echo'<a href="http://geta6.net/wiki6/" style="display:block;height:2em;width:100%;line-height:2em;background:#FFF588;">New version is now available.</a>';
+		if(UPDATE) echo'<a href="https://github.com/geta6" style="display:block;height:2em;width:100%;line-height:2em;background:#FFF588;">New version is now available.</a>';
 	}
 	
 	function PrintTitle(){
