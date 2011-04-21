@@ -82,7 +82,7 @@ class Wiki6 extends Init6 {
 	}
 	
 	function PrintFooter(){
-		echo$this->conf->footer." | powered by <a href='https://github.com/geta6/wiki6'>Wiki6-".$this->conf->version."</a>";
+		echo$this->conf->footer." | powered by <a href='https://github.com/geta6/wiki6'>Wiki6-".file_get_contents("bin/VERSION")."</a>";
 	}
 	
 	function PrintSetting(){
