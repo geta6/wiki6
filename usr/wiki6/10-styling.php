@@ -155,10 +155,6 @@ input[name='password'],
 	padding: 0.5em 0.5em;
 }
 
-#content .createon {
-	position: fixed;
-}
-
 #content #nav a.nav {
 	cursor: pointer;
 }

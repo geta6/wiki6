@@ -1,0 +1,125 @@
+<style style="display:none;">
+#syntaxtable {
+	padding: 1em;
+}
+table {
+	width: 100%;
+}
+tr {
+}
+th {
+	font-weight: bold;
+	font-size: 1.2em;
+	vertical-align: bottom;
+	height: 3em;
+	line-height: 2.5em;
+	border-bottom: 1px solid #9C9D9E;
+}
+td {
+	padding: 0.5em 0;
+	vertical-align: middle;
+	border-bottom: 1px dashed #DCDDDE;
+}
+td.odd {
+	font-family: monospace;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("table").each(function(){
+		$(this).find("td:odd").addClass("odd");
+	});
+});
+</script>
+<div id="syntaxtable">
+	<div style="text-align:center;">
+		<p>We use a formatting system called <a href="http://daringfireball.net/projects/markdown/syntax">Markdown.</a></p>
+		<p>Also, you can use HTML.</p>
+	</div>
+	<table style="padding:1em;">
+		<tr>
+			<th colspan="2">Basic Syntax</th>
+		</tr><tr>
+			<td>Break<br>Line</td>
+			<td>Break&nbsp;&nbsp;<br>Line (insert two space)</td>
+		</tr><tr>
+			<td>Yet another <em>markdowned</em> wiki.</td>
+			<td>Yet another *markdowned* wiki.</td>
+		</tr><tr>
+			<td>Yet another <em>markdowned</em> wiki.</td>
+			<td>Yet another _markdowned_ wiki.</td>
+		</tr><tr>
+			<td>Yet another <strong>markdowned</strong> wiki.</td>
+			<td>Yet another **markdowned** wiki.</td>
+		</tr><tr>
+			<td>Yet another <strong>markdowned</strong> wiki.</td>
+			<td>Yet another __markdowned__ wiki.</td>
+		</tr><tr>
+			<td><code>Code</code> in the text.</td>
+			<td>`Code` in the text.</td>
+		</tr><tr>
+			<td><a href="Inner Link">Inner Link</a>.</td>
+			<td>[[Inner Link]].</td>
+		</tr><tr>
+			<td><a href="Inner Link">Another Text</a>.</td>
+			<td>[Another Text](Inner Link).</td>
+		</tr><tr>
+			<td>Visit <a href="http://geta6.net">geta6.net</a>↱</td>
+			<td>Visit [geta6.net](http://geta6.net/).</td>
+		</tr><tr>
+			<td><a href="http://geta6.net">http://geta6.net</a>↱</td>
+			<td>&lt;http://geta6.net/&gt;</td>
+		</tr><tr>
+			<td><img src="lib/favicon.gif" title="Favicon"></td>
+			<td>![Favicon](lib/favicon.gif)</td>
+		</tr><tr>
+			<th colspan="2">Heading</th>
+		</tr><tr>
+			<td><h1>Biggest</h1></td>
+			<td># Biggest</td>
+		</tr><tr>
+			<td><h6>Smallest</h6></td>
+			<td>###### Smallest</td>
+		</tr><tr>
+			<td><pre><code>Code Block.<br>Indent by tab.</code></pre></td>
+			<td>
+				<span style="padding-left:4em">Code Block.</span><br>
+				<span style="padding-left:4em">Indent by tab.</span>
+			</td>
+		</tr><tr>
+			<th colspan="2">Blockquotes</th>
+		</tr><tr>
+			<td><blockquote>Block Quote</blockquote></td>
+			<td>&gt; Block Quote</td>
+		</tr><tr>
+			<th colspan="2">Listing</th>
+		</tr><tr>
+			<td>
+				<ol>
+					<li>Ordered List 1
+						<ul>
+							<li>Unordred List 1</li>
+							<li>Indent by tab</li>
+							<li>You can use any of the three.</li>
+						</ul>
+					</li>
+					<li>Ordered List 2</li>
+					<li>There is no need to order.</li>
+				</ol>
+			</td>
+			<td>
+				1. Ordered List 1<br>
+				<span style="padding-left:4em">* Unordered List 1</span><br>
+				<span style="padding-left:4em">- Indent by tab</span><br>
+				<span style="padding-left:4em">+ You can use any of the three.</span><br>
+				2. Ordered List 2<br>
+				1. There is no need to order.
+			</td>
+		</tr><tr>
+			<th colspan="2">Horizontal Line</th>
+		</tr><tr>
+			<td><hr></td>
+			<td>---</td>
+		</tr>
+	</table>
+</div>

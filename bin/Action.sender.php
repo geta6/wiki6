@@ -153,9 +153,11 @@ switch($_POST['a']){
 			</form>
 		</div>
 		<div id="preview">
-			<div class="edit">
+			<form class="edit">
 				<div id="marked"></div>
-			</div>
+				<input type="button" id="syntax" class="ok" onclick="" value="Syntax">
+			</form>
 		</div>
+
 
 <?php } ?>

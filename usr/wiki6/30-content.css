@@ -32,6 +32,12 @@
 	background: #EEEfE0;
 }
 
+#content blockquote {
+	padding: 2em;
+	overflow: auto;
+	color: #404448;
+}
+
 #content pre {
 	padding: 1em;
 	overflow: auto;
@@ -62,6 +68,10 @@
 
 #content ol li {
 	list-style-type: decimal;
+}
+
+#content ol ul li {
+	list-style-type: circle;
 }
 
 #content h1,

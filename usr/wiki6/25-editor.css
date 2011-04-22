@@ -3,10 +3,6 @@
 	width: 50%;
 }
 
-#content #editor input {
-	cursor: pointer;
-}
-
 #content #preview {
 	float: left;
 	width: 50%;
@@ -17,7 +13,7 @@
 	height: 100%;
 }
 
-#content textarea#string,
+#content #string,
 #content #marked {
 	overflow: auto;
 	width: 100%;
@@ -25,10 +21,15 @@
 	border: 1px solid #DCDDDE;
 }
 
-#content #marked {
-	background: #FAFBFC;
+#content #string {
+	font-family: monospace;
 }
 
-#content textarea#string {
-	font-family: monospace;
+#content #marked {
+	margin-bottom: 0.4em;
+	background: #F7F8F9;
+}
+
+#content input#syntax {
+	float:right;
 }

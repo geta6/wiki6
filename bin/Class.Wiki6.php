@@ -63,7 +63,7 @@ class Wiki6 extends Init6 {
 		if(!LOCKED){
 			echo'
 			<a style="display:block" id="createsubmit" class="ng" onclick="console(\'create\')">Create New Page</a>
-			<input style="display:none" id="createname" class="createon" type="text">
+			<input style="display:none;" id="createname" class="createon" type="text">
 			';
 		}
 	}
@@ -85,10 +85,6 @@ class Wiki6 extends Init6 {
 		echo$this->conf->footer." | powered by <a href='https://github.com/geta6/wiki6'>Wiki6-".file_get_contents("bin/VERSION")."</a>";
 	}
 	
-	function PrintSetting(){
-		
-	}
-
 	function ModTimeDetect(){
 		if(is_file($this->full)){
 			$diff = time()-filemtime($this->full);
